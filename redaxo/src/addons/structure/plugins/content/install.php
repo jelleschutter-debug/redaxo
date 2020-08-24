@@ -132,7 +132,7 @@ if (!$sql->getRows()) {
         ->setTable(rex::getTable('template'))
         ->setValue('id', 1)
         ->setValue('name', 'Default')
-        ->setValue('content', 'REX_ARTICLE[]')
+        ->setValue('content', 'REX_ARTICLE[] TEST')
         ->setValue('active', 1)
         ->setValue('attributes', '{"ctype":[],"modules":{"1":{"all":"1"}},"categories":{"all":"1"}}')
         ->setRawValue('createdate', 'NOW()')
